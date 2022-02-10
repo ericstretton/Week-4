@@ -1,0 +1,37 @@
+
+
+#main{background:#ffc90e;
+    border-style: solid;
+    width: 96vw;
+    height: 95vh;
+    margin: 1vw 5vh;
+ }
+
+
+.post{display: inline-block;
+    border-style:solid;
+    padding-right: 1vw;
+}
+
+#red{background-color: #ed1c24;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    width: 21vw;
+    height: 85vh;}
+
+#green{background-color: #22b14c;
+        margin-left: 1vw;
+        width: 21vw;
+        height: 85vh;}
+
+#blue{background-color: #3f48cc;
+    margin-left: 1vw;
+    width: 21vw;
+    height: 85vh;}
+
+#purple{background-color: #a349a4;
+   margin-left: 0.5vw;
+   margin-right: 0.5vw;
+    width: 21vw;
+    height: 85vh;
+}
