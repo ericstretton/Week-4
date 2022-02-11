@@ -1,9 +1,12 @@
-
+* {
+    padding: 0;
+    margin: 0;
+}
 
 #main{background:#ffc90e;
     border-style: solid;
     width: 96vw;
-    height: 95vh;
+    height: 100%;
     margin: 1vw 5vh;
  }
 
@@ -15,23 +18,41 @@
 
 #red{background-color: #ed1c24;
     margin-left: 3vw;
-    margin-top: 5vh;
+    margin-top: 26.667px;
+    margin-bottom: 20pt;
     width: 21vw;
     height: 85vh;}
 
 #green{background-color: #22b14c;
         margin-left: 1vw;
+        margin-bottom: 20pt;
         width: 21vw;
         height: 85vh;}
 
+        #green > span{
+            position:fixed;
+            left: 600px;;
+            display: inline-block;
+            font-size: 4.5rem;
+            font-family: cursive;
+        }
+
 #blue{background-color: #3f48cc;
     margin-left: 1vw;
+    margin-bottom: 20pt;
     width: 21vw;
     height: 85vh;}
 
 #purple{background-color: #a349a4;
    margin-left: 0.5vw;
    margin-right: 0.5vw;
+   margin-bottom: 20pt;
     width: 21vw;
     height: 85vh;
+}
+
+#main > h1{font-size: .5em;}
+
+#main > h1:hover{font-size: 1.5em;
+    position: absolute;
 }
